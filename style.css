@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&family=Shippori+Antique+B1&display=swap');
+h1{
+	color:rgb(223, 109, 20);
+}
+h2{color: rgb(150, 131, 236);
+	background-color: blue
+	font-size:40px;
+	text-align: center;
+
+	background-color: rgb(250, 240, 197);
+	background-color: center
+}
+
+
+
+body{
+	font-family: 'Shippori', sans-serif;
+	background-color: rgb(254,251,238);
+   background opacity : 90%;
+   background-attachment: fixed;
+background-image:url(https://c8.alamy.com/compfr/fafpe9/fond-d-ecran-transparent-avec-motif-os-et-pattes-du-chien-pour-votre-conception-fafpe9.jpg);
+}
+
+
+div {
+    background-color: rgb(254, 254, 224);
+    padding: 24px;
+    text-align: center;
+    width: 40%;
+    margin: 10px auto;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px 2px  #000000b5;
+}
+
+	 #avatar {
+     	width: 125px;
+     	height: 125px;
+     	object-fit: cover;
+     	border-radius: 50%;
+     	border: 1px solid black;
+}
+
+#photo2 {
+     	width: 125px;
+     	height: 125px;
+     	object-fit: cover;
+     	border-radius: 50%;
+     	border: 1px solid black;
+     	text-align: center;
+
+}
+
+ #photo3 {
+     	width: 125px;
+     	height: 125px;
+     	object-fit: cover;
+     	border-radius: 50%;
+     	border: 1px solid black;
+}
+
+a {
+	text-decoration: none;
+}
+	.btn-blue {
+	color: white;
+	background-color: rgb(132, 132, 132);
+	padding: 8px 16px;
+	border-radius: 6px;
+	font-weight: bolder;
+	border: 1px solid blue;
+	transition: 1s;
+	font-size: 20px
+}
+
+	.btn-blue:hover {
+		background-color: rgb(223, 109, 20);
+		color: black;
+		transition: 1s;
+	}
+
+	.list-inline {
+		padding: 0;
+		list-style: none;
+}
+
+	.list-inline li {
+		display: inline;
+		margin: 0 16px;
+		font-size: 40px;
+}
+
+.fa-brands {
+	color: rgba(0,0,0,4);
+}
+
+.fa-brands:hover{
+	color: black;
+}
+
+.container {
+  justify-content: flex-start;
+
+}
+.menu {
+padding: 0;
+justify-content: space-around;
+list-style-type: none;
+display: block;
+text-align: center;
+text-decoration: none;
+display: flex	
+}
